@@ -2,7 +2,7 @@
   <title>Stefano9lli website</title>
 </svelte:head>
 
-<div class="py-4 font-bold text-yellow-100 italic">
+<div class="py-4 font-bold text-yellow-100 dark:text-pink-200 italic">
   <p>
     class <span class="bold-1">Dev</span> <span class="bold-2">extends</span>
     <span class="bold-1">Humans</span> &#123;
@@ -58,13 +58,13 @@
     @apply pl-8;
   }
   .bold-1 {
-    @apply text-orange-500 not-italic;
+    @apply text-orange-500 dark:text-pink-500 not-italic;
   }
   .bold-2 {
-    @apply text-yellow-200 not-italic;
+    @apply text-yellow-200 dark:text-yellow-200 not-italic;
   }
   .bold-3 {
-    @apply text-indigo-300 not-italic;
+    @apply text-light-blue-300 dark:text-teal-300 not-italic;
   }
   .comments {
     @apply text-warm-gray-500 font-medium;

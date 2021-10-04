@@ -3,7 +3,7 @@ import { defineConfig } from 'windicss/helpers';
 import colors from 'windicss/colors';
 
 export default defineConfig({
-	darkMode: 'class', // or 'media'
+	darkMode: 'media', // or 'media'
 	theme: {
 		extend: {
 			colors: {

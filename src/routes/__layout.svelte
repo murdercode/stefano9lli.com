@@ -1,10 +1,11 @@
 <div
-  class="filter grayscale-10 sepia-30 bg-gradient-to-br from-yellow-200 via-yellow-500 to-yellow-800  h-screen w-screen antialiased"
+  class="filter grayscale-10 sepia-30 dark:sepia-0 h-screen w-screen antialiased bg-gradient-to-br from-yellow-200 via-yellow-500 to-yellow-800
+  dark:from-blue-gray-700 dark:via-blue-gray-800 dark:to-blue-gray-900"
 >
   <main class="flex w-screen h-screen">
     <div class="m-auto">
       <div
-        class="relative rounded-2xl px-4 md:px-12 py-4 shadow-2xl bg-warm-gray-900 bg-opacity-80"
+        class="relative rounded-2xl px-4 md:px-12 py-4 shadow-2xl bg-warm-gray-900 dark:bg-blue-gray-900 bg-opacity-80"
       >
         <!-- Buttons -->
         <div class="absolute left-3 top-2 flex space-x-1.5">
@@ -31,7 +32,7 @@
 </div>
 
 <footer
-  class="rounded-lg text-center absolute bg-warm-gray-900 bg-opacity-80 bottom-8 text-sm font-mono text-yellow-100 px-4 py-2 right-2 rotate-6 transform hover:-rotate-6 transition-all duration-500 ease-in-out shadow-lg"
+  class="rounded-lg text-center absolute bg-warm-gray-900 text-yellow-100  dark:bg-blue-gray-800 dark:text-teal-300 bg-opacity-80 bottom-8 text-sm font-mono px-4 py-2 right-2 rotate-6 transform hover:-rotate-6 transition-all duration-500 ease-in-out shadow-lg"
 >
   <a
     href="https://github.com/murdercode/stefano9lli.com"
@@ -40,7 +41,7 @@
   >
     <p class="mx-1 my-auto">Powered by</p>
     <!-- TODO: logo as component-->
-    <p class="w-6 h-6 text-yellow-100">
+    <p class="w-6 h-6">
       <svg
         fill="currentColor"
         version="1.1"
