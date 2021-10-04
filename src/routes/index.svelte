@@ -31,9 +31,6 @@
 </div>
 
 <style windi:safelist>
-    .row-0 {
-        @apply pl-0;
-    }
     .row-1 {
         @apply pl-4;
     }
