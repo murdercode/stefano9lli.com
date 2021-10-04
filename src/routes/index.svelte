@@ -18,7 +18,7 @@
   <p class="row-2 bold-3">
     '<a
       class="hover:underline hover:text-indigo-200 active:text-indigo-200"
-      href="mailto:stefano.novelli@pm.me">stefano.novelli@pm.me</a
+      href="mailto:posta@stefano9lli.com">posta@stefano9lli.com</a
     >',
   </p>
   <p class="row-1">];</p>

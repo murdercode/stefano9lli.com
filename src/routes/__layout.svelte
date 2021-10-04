@@ -4,12 +4,25 @@
   <main class="flex w-screen h-screen">
     <div class="m-auto">
       <div
-        class="rounded-2xl px-4 md:px-12 py-8 shadow-2xl bg-warm-gray-900 bg-opacity-80"
+        class="relative rounded-2xl px-4 md:px-12 py-4 shadow-2xl bg-warm-gray-900 bg-opacity-80"
       >
+        <!-- Buttons -->
+        <div class="absolute left-3 top-2 flex space-x-1.5">
+          <div
+            class="w-3 h-3 rounded-full bg-red-400 hover:bg-red-500 cursor-pointer"
+          />
+          <div
+            class="w-3 h-3 rounded-full bg-yellow-400 hover:bg-yellow-500 cursor-pointer"
+          />
+          <div
+            class="w-3 h-3 rounded-full bg-green-400 hover:bg-green-500 cursor-pointer"
+          />
+        </div>
+        <!-- Title -->
         <p class="text-center text-white text-xs opacity-60 font-bold">
           ./app/Models/Dev.php
         </p>
-        <div class="font-mono">
+        <div class="font-mono xl:text-lg py-4">
           <slot />
         </div>
       </div>
