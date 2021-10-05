@@ -21,4 +21,4 @@ npm run build
 - Windi CSS (a Tailwind better alternative)
 
 Sorry, I don't have so much time for formatting this file.
-I'll insert link and other stuff, I'll promise!
+I'll insert link and other stuff, I promise!

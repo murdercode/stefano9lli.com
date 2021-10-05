@@ -1,8 +1,17 @@
+<script context="module">
+  // Don't need JS hydratating, so...
+  export const hydrate = false;
+</script>
+
 <svelte:head>
   <title>Stefano9lli website</title>
+  <meta
+    name="description"
+    content="Stefano Novelli – Programmatore, Consulente Informatico e... Ethical qualcosa."
+  />
 </svelte:head>
 
-<div class="py-4 font-bold text-yellow-100 dark:text-pink-200 italic">
+<div class="py-4 font-bold text-yellow-100 dark:text-pink-300 italic">
   <p>
     class <span class="bold-1">Dev</span> <span class="bold-2">extends</span>
     <span class="bold-1">Humans</span> &#123;
@@ -18,32 +27,32 @@
   <p class="row-2 bold-3">
     '<a
       class="hover:underline hover:text-indigo-200 active:text-indigo-200"
-      href="mailto:posta@stefano9lli.com">posta@stefano9lli.com</a
+      href="mailto:stefano.novelli@pm.me">stefano.novelli@pm.me</a
     >',
   </p>
   <p class="row-1">];</p>
 
   <p class="row-1">
-    public <span class="bold-2">$sites</span> = [
-    <a
+    public <span class="bold-2">$sites</span> = ['<a
       class="hover:underline bold-3 hover:text-indigo-200 active:text-indigo-200"
       href="https://inforge.net"
-      target="_blank">'if'</a
-    >,
-    <a
+      target="_blank"
+      rel="noopener">if</a
+    >','<a
       class="hover:underline bold-3 hover:text-indigo-200 active:text-indigo-200"
       href="https://tomshw.it"
-      target="_blank">'toms'</a
-    >
-    ];
+      target="_blank"
+      rel="noopener">toms</a
+    >'];
   </p>
 
   <p class="row-1">
-    protected <span class="bold-2">$hidden</span> = [<a
+    protected <span class="bold-2">$hidden</span> = ['<a
       class="hover:underline bold-3 hover:text-indigo-200 active:text-indigo-200"
       href="https://hacklog.net"
-      target="_blank">'hacking'</a
-    >];
+      target="_blank"
+      rel="noopener">hacking</a
+    >'];
   </p>
   <p>
     &#125; <span class="comments">// 99% dev - 1% arrosticini</span>
@@ -64,9 +73,12 @@
     @apply text-yellow-200 dark:text-yellow-200 not-italic;
   }
   .bold-3 {
-    @apply text-light-blue-300 dark:text-teal-300 not-italic;
+    @apply text-white dark:text-teal-300 not-italic;
   }
   .comments {
     @apply text-warm-gray-500 font-medium;
+  }
+  a {
+    @apply underline;
   }
 </style>
