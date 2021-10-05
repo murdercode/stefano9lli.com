@@ -25,21 +25,18 @@
   <p class="row-2 bold-3">'Stefano Novelli',</p>
 
   <p class="row-2 bold-3">
-    '<a
-      class="hover:underline hover:text-indigo-200 active:text-indigo-200"
-      href="mailto:stefano.novelli@pm.me">stefano.novelli@pm.me</a
-    >',
+    '<a href="mailto:stefano.novelli@pm.me">stefano.novelli@pm.me</a>',
   </p>
   <p class="row-1">];</p>
 
   <p class="row-1">
     public <span class="bold-2">$sites</span> = ['<a
-      class="hover:underline bold-3 hover:text-indigo-200 active:text-indigo-200"
+      class="bold-3"
       href="https://inforge.net"
       target="_blank"
       rel="noopener">if</a
     >','<a
-      class="hover:underline bold-3 hover:text-indigo-200 active:text-indigo-200"
+      class="bold-3"
       href="https://tomshw.it"
       target="_blank"
       rel="noopener">toms</a
@@ -48,7 +45,7 @@
 
   <p class="row-1">
     protected <span class="bold-2">$hidden</span> = ['<a
-      class="hover:underline bold-3 hover:text-indigo-200 active:text-indigo-200"
+      class="bold-3"
       href="https://hacklog.net"
       target="_blank"
       rel="noopener">hacking</a
@@ -73,7 +70,7 @@
     @apply text-yellow-200 dark:text-yellow-200 not-italic;
   }
   .bold-3 {
-    @apply text-white dark:text-teal-300 not-italic;
+    @apply text-white hover:text-yellow-100 dark:text-teal-300 dark:hover:text-teal-200 not-italic;
   }
   .comments {
     @apply text-warm-gray-500 font-medium;
