@@ -16,7 +16,7 @@ npm run build
 
 ## Credits
 
-- Vercel (for Hosting)
+- Cloudflare Pages (for Hosting)
 - SvelteKit (awesome SSR kit)
 - Windi CSS (a Tailwind better alternative)
 
