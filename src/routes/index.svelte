@@ -1,6 +1,6 @@
 <script context="module">
   // Don't need JS hydratating, so...
-  export const hydrate = false;
+  //export const hydrate = false; // It seems to crash compilation?
 </script>
 
 <svelte:head>
