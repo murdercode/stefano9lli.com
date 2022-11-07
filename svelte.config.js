@@ -17,7 +17,9 @@ const config = {
 	],
 	kit: {
 		adapter: adapter()
-	}
+	},
+	"extends": "./.svelte-kit/tsconfig.json"
+
 	/*kit: {
 		adapter: adapter(),
 		// hydrate the <div id="svelte"> element in src/app.html
