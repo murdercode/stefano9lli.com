@@ -51,6 +51,16 @@
       rel="noopener">hacking</a
     >'];
   </p>
+
+  <p class="row-1">
+    private <span class="bold-2">$endpoints</span> = ['<a
+          class="bold-3"
+          href="https://twitter.com/stefano9lli"
+          target="_blank"
+          rel="me">Twitter</a
+  >', '<a rel="me" class="bold-3" href="https://mastodon.uno/@murdercode">Mastodon</a>'];
+  </p>
+
   <p>
     &#125; <span class="comments">// 99% dev - 1% arrosticini</span>
   </p>
