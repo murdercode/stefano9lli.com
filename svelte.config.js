@@ -18,7 +18,6 @@ const config = {
 	kit: {
 		adapter: adapter()
 	},
-	"extends": "./.svelte-kit/tsconfig.json"
 
 	/*kit: {
 		adapter: adapter(),
