@@ -28,14 +28,11 @@
             <!-- Buttons -->
             <div class="absolute left-3 top-2 flex space-x-1.5">
               <div
-                class="w-3 h-3 rounded-full bg-red-400 hover:bg-red-500 cursor-pointer"
-              />
+                class="w-3 h-3 rounded-full bg-red-400 hover:bg-red-500 cursor-pointer"></div>
               <div
-                class="w-3 h-3 rounded-full bg-yellow-400 hover:bg-yellow-500 cursor-pointer"
-              />
+                class="w-3 h-3 rounded-full bg-yellow-400 hover:bg-yellow-500 cursor-pointer"></div>
               <div
-                class="w-3 h-3 rounded-full bg-green-400 hover:bg-green-500 cursor-pointer"
-              />
+                class="w-3 h-3 rounded-full bg-green-400 hover:bg-green-500 cursor-pointer"></div>
             </div>
             <!-- Title -->
             <p class="text-center text-white text-xs opacity-60 font-bold">
