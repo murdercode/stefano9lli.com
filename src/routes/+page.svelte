@@ -58,7 +58,7 @@
           href="https://twitter.com/stefano9lli"
           target="_blank"
           rel="me">Twitter</a
-  >', '<a rel="me" class="bold-3" href="https://mastodon.uno/@murdercode">Mastodon</a>'];
+  >', '<a rel="me" class="bold-3" href="https://mastodon.social/@stefano9lli">Mastodon</a>'];
   </p>
 
   <p>
